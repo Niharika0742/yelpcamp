@@ -275,10 +275,7 @@ app.use((err,req,res,next)=>{
     // res.send("ohh!something went wrong")
 })
 
-const port = process.env.PORT || 3300;
-app.listen (port,()=>{
-    console.log(`serving on port ${port}`);
-})
+module.exports = app;
 
 
 
